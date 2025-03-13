@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@heroui/button";
 
 interface Props {
   id: string;
@@ -34,9 +35,9 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <button className="bg-[#eead2b] uppercase px-4 py-2 font-semibold rounded-lg">
+          <Button className="bg-[#eead2b] uppercase px-4 py-2 font-semibold rounded-lg">
             Reach out
-          </button>
+          </Button>
         </div>
       </div>
     </nav>
