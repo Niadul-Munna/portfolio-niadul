@@ -1,3 +1,9 @@
+import Lamp from "@/components/ui/lamp";
+
 export default function Home() {
-  return <div className="bg-[#201e26]  h-screen px-12 "></div>;
+  return (
+    <div className="h-screen w-screen ">
+      <Lamp />
+    </div>
+  );
 }
